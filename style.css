@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("blur (1).jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.whiteTitle {
+    color: white;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.267);
+    text-align: center;
+}
+
+h1 {
+    margin: 15px 0;
+}
+
+#hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    /* Нужно для того чтобы отступ был под кнопкой click it */
+    overflow: hidden;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.048);
+}
+
+h2 {
+    font-size: 50px;
+    margin: 50px;
+}
+.img-cont {
+    width: 300px;    
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    background-image:url(new\ zealend.jpg);
+    border-radius: 8px;
+    margin:15px 10px;
+    padding: 50px 0;
+    
+}
+.img-cont2 {
+    background-image:url(germany.jpg);
+}
+    
+.img-cont3 {
+    background-image:url(norway.webp);  
+}
+
+
+.paragraph {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.164);
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.445),
+            rgba(7, 7, 7, 0.664));
+    height: 100px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    margin: 30px;
+    border-radius: 8px;
+    color: white;
+    text-align: right;
+    width: 60%;
+}
+
+.divP {
+    text-align: right;
+}
+
+button {
+    display: flex;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.301);
+    border: 1px solid white;
+    height: 40px;
+    padding: 0 60px;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.507);
+}
+
+#aboutUs h3 {
+    margin: 50px;
+    font-size: 40px
+}
+
+#aboutUsLeft {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+#aboutUs{
+    text-align: center;
+}
+#columbia{
+    vertical-align: middle;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 8px;
+}
+#aboutUs h4{
+    margin-bottom: 20px;
+}
+#aboutUs p{
+    margin-bottom: 20px;  
+    text-align: left;  
+    color: rgb(53, 53, 53);
+}
+ul{
+    list-style: none;
+}
+#factory h4{
+    color: white;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.575);
+    text-align: center;
+}
+.img-cont ul{
+    background-color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.img-cont a{
+    background-color: white;
+    color: black;
+    text-decoration: none; 
+    padding: 12px 40px;
+    border-radius: 8px;
+
+}
+.img-cont2 a{
+    background-color: white;
+    color: black;
+    text-decoration: none;  
+    padding: 12px 40px; 
+    border-radius: 8px;
+}
+
+.img-cont3 a{
+    background-color: white;
+    color: black;
+    text-decoration: none;  
+    padding: 12px 40px; 
+    border-radius: 8px;
+}
+#factory h6{
+    text-align: center;
+    font-size: 10px;
+}
+#factory h3{
+    font-size: 40px;
+}
+#factory{
+    text-align: center;
+}
+#team .whiteTitle{
+    font-size: 40px;
+    margin: 50px;
+}
+#team img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 500px;
+    
+    
+}
+#team div{
+    background-color: rgba(255, 255, 255, 0.103);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.267);
+    width: 350px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+#team{
+    width: 1200px;
+    margin: auto;
+}
+#factory a:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+}
+#factory div{
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.363);
+}
+#team a{
+    text-decoration: none;
+}
+.teamCards{
+    text-align: center;
+}
+
