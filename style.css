@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("blur (1).jpg");
     background-size: cover;
@@ -48,25 +52,57 @@ h2 {
     font-size: 50px;
     margin: 50px;
 }
+
 .img-cont {
-    width: 300px;    
+    width: 300px;
     background-size: cover;
     background-position: center;
     display: inline-block;
-    background-image:url(new\ zealend.jpg);
+    background-image: url(new\ zealend.jpg);
     border-radius: 8px;
-    margin:15px 10px;
+    margin: 15px 10px;
     padding: 50px 0;
-    
-}
-.img-cont2 {
-    background-image:url(germany.jpg);
-}
-    
-.img-cont3 {
-    background-image:url(norway.webp);  
 }
 
+.img-cont2 {
+    background-image: url(germany.jpg);
+}
+
+.img-cont3 {
+    background-image: url(norway.webp);
+}
+
+.img-cont ul {
+    background-color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+    margin: 50px 0;
+
+}
+
+.img-cont a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 8px;
+
+}
+
+.img-cont2 a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 8px;
+}
+
+.img-cont3 a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 8px;
+}
 
 .paragraph {
     display: inline-block;
@@ -75,7 +111,6 @@ h2 {
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 0.445),
             rgba(7, 7, 7, 0.664));
-    height: 100px;
     padding: 30px 20px;
     box-sizing: border-box;
     margin: 30px;
@@ -113,106 +148,188 @@ button {
     display: inline-block;
     vertical-align: middle;
     padding: 10px;
+    box-sizing: border-box;
 }
-#aboutUs{
+
+#aboutUs {
     text-align: center;
 }
-#columbia{
+
+#columbia {
     vertical-align: middle;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.384);
     border-radius: 8px;
+    width: 40%;
 }
-#aboutUs h4{
+
+#aboutUs h4 {
     margin-bottom: 20px;
 }
-#aboutUs p{
-    margin-bottom: 20px;  
-    text-align: left;  
+
+#aboutUs p {
+    margin-bottom: 20px;
+    text-align: left;
     color: rgb(53, 53, 53);
 }
-ul{
+
+ul {
     list-style: none;
 }
-#factory h4{
+
+#factory h3 {
+    margin: 50px;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+#factory h4 {
     color: white;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.575);
     text-align: center;
 }
-.img-cont ul{
-    background-color: rgba(255, 255, 255, 0.767);
-    text-align: center;
-    margin: 50px 0;
 
-}
-
-.img-cont a{
-    background-color: white;
-    color: black;
-    text-decoration: none; 
-    padding: 12px 40px;
-    border-radius: 8px;
-
-}
-.img-cont2 a{
-    background-color: white;
-    color: black;
-    text-decoration: none;  
-    padding: 12px 40px; 
-    border-radius: 8px;
-}
-
-.img-cont3 a{
-    background-color: white;
-    color: black;
-    text-decoration: none;  
-    padding: 12px 40px; 
-    border-radius: 8px;
-}
-#factory h6{
+#factory h6 {
     text-align: center;
     font-size: 10px;
 }
-#factory h3{
+
+#factory h3 {
     font-size: 40px;
 }
-#factory{
+
+#factory {
     text-align: center;
 }
-#team .whiteTitle{
+
+#factory div {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.363);
+}
+
+#team .whiteTitle {
     font-size: 40px;
     margin: 50px;
 }
-#team img{
+
+#team img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     border-radius: 500px;
-    
-    
+    margin-bottom: 15px;
+
 }
-#team div{
+
+.teamCards {
     background-color: rgba(255, 255, 255, 0.103);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.267);
     width: 350px;
     display: inline-block;
     margin: 10px;
     border-radius: 8px;
+    padding: 15px;
+    /* Нужно для того, чтобы padding не расширял теги */
+    box-sizing: border-box;
+}
 
-}
-#team{
-    width: 1200px;
+#team {
+    max-width: 1200px;
     margin: auto;
-}
-#factory a:hover{
-    background-color: rgba(0, 0, 0, 0.199);
-}
-#factory div{
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.363);
-}
-#team a{
-    text-decoration: none;
-}
-.teamCards{
     text-align: center;
 }
 
+#team a {
+    transition: .3s;
+    text-decoration: none;
+    color: #222;
+    background-color: rgba(255, 255, 255, 0.521);
+    padding: 0 20px;
+    line-height: 40px;
+    display: inline-block;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.274);
+    border-radius: 8px;
+}
+
+.teamCards {
+    text-align: center;
+}
+
+.teamCards b {
+    display: block;
+}
+
+.teamCards h5 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.teamCards p {
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+
+#team a:hover {
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+#feedback h4 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#feedback h5 {
+    color: #555;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+input,
+textarea {
+    display: block;
+    color: #555;
+    width: 400px;
+    margin: 0 auto 10px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.205);
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    height: 250px;
+}
+
+input {
+    padding: 0 10px;
+    height: 50px;
+}
+
+@media (max-width:600px) {
+    #aboutUsLeft {
+        width: 90%;
+    }
+
+    #columbia {
+        width: 90%;
+    }
+
+    input,
+    textarea {
+        width: 90%;
+    }
+
+    .img-cont {
+        width: 90%;
+    }
+
+    .teamCards{
+        width: 90%;
+    }
+
+}
