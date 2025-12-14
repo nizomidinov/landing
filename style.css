@@ -24,7 +24,7 @@ h1 {
 }
 
 #hero {
-    background-image: url("hero.jpg");
+    background-image: url("лес.jpeg");
     background-size: cover;
     background-position: center;
     /* Нужно для того чтобы отступ был под кнопкой click it */
@@ -76,6 +76,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.767);
     text-align: center;
     margin: 50px 0;
+
 
 }
 
@@ -174,6 +175,9 @@ button {
 
 ul {
     list-style: none;
+}
+li{
+    margin-bottom: 3px;
 }
 
 #factory h3 {
